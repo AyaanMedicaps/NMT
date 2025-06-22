@@ -228,7 +228,7 @@ export default function About() {
                     <div className="relative spacing-lg">
                       <div className="w-28 h-28 rounded-full mx-auto bg-gradient-to-r from-primary-cyan/20 to-secondary-cyan/20 flex items-center justify-center">
                         <User className="h-14 w-14 text-primary-cyan" />
-                      </div>
+        </div>
                     </div>
                     <h3 className="text-xl font-semibold spacing-xs text-text-dark">{member.name}</h3>
                     <div className="text-primary-cyan spacing-md font-medium">{member.role}</div>
